@@ -7,11 +7,11 @@ body {
   box-sizing: border-box;
   margin: 0;
   font-family: sans-serif;
-  background: #222;
+  background: #111;
 }
 
 h1 {
-  margin: 0 10px 0 50px;
+  margin: 0 10px 0 80px;
   font-size: 2.3rem;
 }
 
@@ -36,8 +36,8 @@ header ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 300px;
-  margin: 0 50px 0 10px;
+  width: 350px;
+  margin: 0 80px 0 10px;
   padding: 0;
   font-size: 1.3rem;
 }
@@ -101,32 +101,37 @@ main {
   color: #478DEE;
 }
 
-/* Services Section */
+/* Experiences Section */
 
-#services, #about, #contact {
+#experiences, #about, #contact {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 40px auto;
+  margin: 80px auto 100px;
   color: #eee;
 }
 
-#services h2, #about h2, #contact h2 {
-  margin-top: 16px;
+#experiences h2, #about h2 {
+  margin: 16px 0 60px;
 }
 
-#services>p {
+#experiences>p {
   margin-top: 0;
   margin-bottom: 40px;
 }
 
-#services span {
+#experiences span {
   color: #478DEE;
+}
+
+#experiences p {
+  line-height: 1.8rem;
+  font-size: 1.1rem;
 }
 
 #trails{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 70%;
 }
 
@@ -139,12 +144,17 @@ main {
 
 #about {
   margin: 0 auto;
-  padding: 40px 0;
-  background: #333;
+  padding: 80px 0 100px;
+  background: #222;
 }
 
 #about div {
   width: 40%;
+}
+
+#about p {
+  line-height: 1.8rem;
+  font-size: 1.1rem;
 }
 
 #about div img {
@@ -167,6 +177,15 @@ div#about-container:first-child {
 }
 
 /* Contact Section */
+
+#contact h2 {
+  margin-bottom: 10px;
+}
+
+#contact p {
+  margin-bottom: 40px;
+  font-size: 1.1rem;
+}
 
 #contact form input {
   width: 100%;
