@@ -1,8 +1,22 @@
 body {
   box-sizing: border-box;
   margin: 0;
-  background: #222;
   font-family: sans-serif;
+  background: #222;
+}
+
+h1 {
+  margin: 0 10px 0 50px;
+  font-size: 2.3rem;
+}
+
+h2 {
+  font-size: 1.9rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  text-decoration: underline;
 }
 
 header {
@@ -11,11 +25,6 @@ header {
   align-items: center;
   height: 7vh;
   color: #eee;
-}
-
-header h1 {
-  margin: 0 10px 0 50px;
-  font-size: 2.3rem;
 }
 
 header ul {
@@ -39,9 +48,11 @@ header li a {
 
 main {
   margin: 0 auto;
-  height: 100vh;
-  background: #222;
+  display: flex;
+  flex-direction: column;
 }
+
+/* Hero Section */
 
 #hero {
   display: flex;
@@ -49,17 +60,18 @@ main {
   margin: 0 auto;
   width: 100%;
   height: 93vh;
-  
+  color: #eee; 
 }
 
-#hero p {
+#hero h3 {
   position: absolute;
   top: 15%;
-  left: 19%;
+  left: 17%;
   margin: 0;
   letter-spacing: 1vw;
   font-size: 3.2vw;
-  color: #eee;
+  font-weight: 400;
+  text-decoration: none;
 }
 
 #hero img {
@@ -67,3 +79,62 @@ main {
   object-fit: cover;
 }
 
+#img-credit {
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+  font-size: 12px;
+  letter-spacing: 0;
+}
+
+#img-credit a {
+  color: #478DEE;
+}
+
+/* Services Section */
+
+#services, #about, #contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto;
+  color: #eee;
+}
+
+#services h2, #about h2, #contact h2 {
+  margin-top: 16px;
+}
+
+#services>p {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+#trails{
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+
+#trails div {
+  width: 40%;
+  text-align: center;
+}
+
+/* About Section */
+
+#about {
+  margin: 0 auto;
+  padding: 40px 0;
+  background: #333;
+}
+
+#about div {
+  width: 70%;
+}
+
+/* Contact Section */
+
+#contact form {
+  width: 70%;
+}
