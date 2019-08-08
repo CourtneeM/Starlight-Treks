@@ -1,1 +1,1 @@
-# Beach Vacation Website Project
+# Starlight Treks | Night Hiking - Website Project
