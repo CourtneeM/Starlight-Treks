@@ -321,8 +321,8 @@ div#about-container:first-child {
     font-size: 1.1rem;
   }
 
-  #experiences, #about, #contact {
-    margin: 60px auto;
+  #experiences, #contact {
+    margin: 40px auto;
   }
   
   #trails {
@@ -336,7 +336,8 @@ div#about-container:first-child {
   }
 
   #about {
-    padding: 60px 0;
+    margin: 0;
+    padding: 40px 0;
   }
 
   #contact div {
@@ -357,6 +358,7 @@ div#about-container:first-child {
 
   main h2 {
     width: 90%;
+    text-align: center;
   }
 
   #hero h3 {
